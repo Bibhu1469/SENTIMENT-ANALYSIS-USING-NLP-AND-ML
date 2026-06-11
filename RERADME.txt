@@ -1,0 +1,28 @@
+CUSTOMER REVIEW SENTIMENT ANALYSIS USING NLP & MACHINE LEARNING
+
+This project includes:
+
+PROJECT-2.ipynb – Data cleaning, NLP preprocessing, EDA, TF-IDF vectorization, and machine learning model building
+
+sentiment_model.pkl – Saved trained Logistic Regression model
+
+tfidf_vectorizer.pkl – Saved TF-IDF vectorizer used for text feature extraction
+
+dataset -P667.xlsx – Customer review dataset
+
+app.py – Streamlit dashboard for visualization and live sentiment prediction
+
+Sentiment Analysis Using NLP and ML.pptx – Project presentation
+
+How to Run:
+
+Open terminal
+
+Navigate to project folder
+
+Run:
+streamlit run app.py
+
+The Streamlit dashboard will open in the browser.
+
+This project analyzes customer reviews using NLP and Machine Learning techniques and classifies reviews into Positive, Negative, and Neutral sentiments. Multiple machine learning models such as Logistic Regression, Naive Bayes, and SVM were implemented and compared. Logistic Regression achieved the best performance and was used for final deployment.
